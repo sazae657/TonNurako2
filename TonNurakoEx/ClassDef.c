@@ -1,0 +1,150 @@
+#include "TonNurako.h"
+#include "ClassDef.h"
+
+#include <Xm/XmAll.h>
+TNK_DECLARE_BEGIN
+
+TNK_EXPORT WidgetClass
+TNK_GetWidgetClass(const TNK_WIDGET_CLASS glass)
+{
+    CONS25W(stderr, "TNK_GetWidgetClass <%d>\n", glass);
+    switch(glass) {
+        case TNK_xmArrowButtonGadgetClass:
+            return xmArrowButtonGadgetClass;
+        case TNK_xmArrowButtonWidgetClass:
+            return xmArrowButtonWidgetClass;
+        case TNK_xmBulletinBoardWidgetClass:
+            return xmBulletinBoardWidgetClass;
+        case TNK_xmButtonBoxWidgetClass:
+            return xmButtonBoxWidgetClass;
+        case TNK_xmCascadeButtonGadgetClass:
+            return xmCascadeButtonGadgetClass;
+        case TNK_xmCascadeButtonWidgetClass:
+            return xmCascadeButtonWidgetClass;
+        case TNK_xmColorSelectorWidgetClass:
+            return xmColorSelectorWidgetClass;
+        case TNK_xmColumnWidgetClass:
+            return xmColumnWidgetClass;
+        case TNK_xmComboBoxWidgetClass:
+            return xmComboBoxWidgetClass;
+        case TNK_xmCommandWidgetClass:
+            return xmCommandWidgetClass;
+        case TNK_xmContainerWidgetClass:
+            return xmContainerWidgetClass;
+        case TNK_xmDataFieldWidgetClass:
+            return xmDataFieldWidgetClass;
+        case TNK_xmDialogShellWidgetClass:
+            return xmDialogShellWidgetClass;
+        case TNK_xmDisplayClass:
+            return xmDisplayClass;
+        case TNK_xmDragContextClass:
+            return xmDragContextClass;
+        case TNK_xmDragIconObjectClass:
+            return xmDragIconObjectClass;
+        case TNK_xmDragOverShellWidgetClass:
+            return xmDragOverShellWidgetClass;
+        case TNK_xmDrawingAreaWidgetClass:
+            return xmDrawingAreaWidgetClass;
+        case TNK_xmDrawnButtonWidgetClass:
+            return xmDrawnButtonWidgetClass;
+        case TNK_xmDropDownWidgetClass:
+            return xmDropDownWidgetClass;
+        case TNK_xmDropSiteManagerObjectClass:
+            return xmDropSiteManagerObjectClass;
+        case TNK_xmDropTransferObjectClass:
+            return xmDropTransferObjectClass;
+        case TNK_xmFileSelectionBoxWidgetClass:
+            return xmFileSelectionBoxWidgetClass;
+        case TNK_xmFontSelectorWidgetClass:
+            return xmFontSelectorWidgetClass;
+        case TNK_xmFormWidgetClass:
+            return xmFormWidgetClass;
+        case TNK_xmFrameWidgetClass:
+            return xmFrameWidgetClass;
+        case TNK_xmGadgetClass:
+            return xmGadgetClass;
+        case TNK_xmGrabShellWidgetClass:
+            return xmGrabShellWidgetClass;
+        case TNK_xmHierarchyWidgetClass:
+            return xmHierarchyWidgetClass;
+        case TNK_xmIconBoxWidgetClass:
+            return xmIconBoxWidgetClass;
+        case TNK_xmIconButtonWidgetClass:
+            return xmIconButtonWidgetClass;
+        case TNK_xmIconGadgetClass:
+            return xmIconGadgetClass;
+        case TNK_xmIconHeaderClass:
+            return xmIconHeaderClass;
+        case TNK_xmLabelGadgetClass:
+            return xmLabelGadgetClass;
+        case TNK_xmLabelWidgetClass:
+            return xmLabelWidgetClass;
+        case TNK_xmListWidgetClass:
+            return xmListWidgetClass;
+        case TNK_xmMainWindowWidgetClass:
+            return xmMainWindowWidgetClass;
+        case TNK_xmManagerWidgetClass:
+            return xmManagerWidgetClass;
+        case TNK_xmMenuShellWidgetClass:
+            return xmMenuShellWidgetClass;
+        case TNK_xmMessageBoxWidgetClass:
+            return xmMessageBoxWidgetClass;
+        case TNK_xmMultiListWidgetClass:
+            return xmMultiListWidgetClass;
+        case TNK_xmNotebookWidgetClass:
+            return xmNotebookWidgetClass;
+        case TNK_xmOutlineWidgetClass:
+            return xmOutlineWidgetClass;
+        case TNK_xmPanedWidgetClass:
+            return xmPanedWidgetClass;
+        case TNK_xmPanedWindowWidgetClass:
+            return xmPanedWindowWidgetClass;
+        case TNK_xmPrimitiveWidgetClass:
+            return xmPrimitiveWidgetClass;
+        // case TNK_xmPrintShellWidgetClass:
+        //    return xmPrintShellWidgetClass;
+        case TNK_xmPushButtonGadgetClass:
+            return xmPushButtonGadgetClass;
+        case TNK_xmPushButtonWidgetClass:
+            return xmPushButtonWidgetClass;
+        case TNK_xmRowColumnWidgetClass:
+            return xmRowColumnWidgetClass;
+        case TNK_xmScaleWidgetClass:
+            return xmScaleWidgetClass;
+        case TNK_xmScreenClass:
+            return xmScreenClass;
+        case TNK_xmScrollBarWidgetClass:
+            return xmScrollBarWidgetClass;
+        case TNK_xmScrolledWindowWidgetClass:
+            return xmScrolledWindowWidgetClass;
+        case TNK_xmSelectionBoxWidgetClass:
+            return xmSelectionBoxWidgetClass;
+        case TNK_xmSeparatorGadgetClass:
+            return xmSeparatorGadgetClass;
+        case TNK_xmSeparatorWidgetClass:
+            return xmSeparatorWidgetClass;
+        case TNK_xmSimpleSpinBoxWidgetClass:
+            return xmSimpleSpinBoxWidgetClass;
+        case TNK_xmSpinBoxWidgetClass:
+            return xmSpinBoxWidgetClass;
+        case TNK_xmTabBoxWidgetClass:
+            return xmTabBoxWidgetClass;
+        case TNK_xmTabStackWidgetClass:
+            return xmTabStackWidgetClass;
+        case TNK_xmTextFieldWidgetClass:
+            return xmTextFieldWidgetClass;
+        case TNK_xmTextWidgetClass:
+            return xmTextWidgetClass;
+        case TNK_xmToggleButtonGadgetClass:
+            return xmToggleButtonGadgetClass;
+        case TNK_xmToggleButtonWidgetClass:
+            return xmToggleButtonWidgetClass;
+        case TNK_xmTreeWidgetClass:
+            return xmTreeWidgetClass;
+        default:
+            break;
+    }
+    return NULL;
+}
+
+TNK_DECLARE_END

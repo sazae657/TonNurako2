@@ -1,0 +1,39 @@
+# Motifのﾍｯﾀﾞーとﾗｲﾌﾞﾗﾘーのﾊﾟｽ
+MOTF_HEADER_ARGS   := -I/usr/include
+MOTF_LIBRARY_ARGS := -L/usr/lib
+
+# X11のﾍｯﾀﾞーとﾗｲﾌﾞﾗﾘーのﾊﾟｽ
+X11_HEADER_ARGS :=`pkg-config --cflags xt` \
+                  `pkg-config --cflags xmu` \
+                  `pkg-config --cflags xext` \
+                  `pkg-config --cflags xrender`\
+                  `pkg-config --cflags xft` \
+                  `pkg-config --cflags fontconfig`
+
+X11_LIBRARY_ARGS:=-L/usr/X11R6/lib
+
+# Motifのﾗｲﾌﾞﾗﾘー
+MOTIF_LIBS=-lXm -lXmu
+
+# X11のﾗｲﾌﾞﾗﾘー
+X11_LIBS=`pkg-config --libs xt` \
+         `pkg-config --libs xmu` \
+         `pkg-config --libs xext` \
+         `pkg-config --libs xrender`\
+         `pkg-config --libs xft` \
+         `pkg-config --libs fontconfig`
+
+# Cｺﾝﾊﾟｲﾗー
+CC := cc
+CFLAGS := -g -fPIC
+
+WARN_OPT := -W -Wall -Werror -Wno-unused-parameter -Wno-discarded-qualifiers
+
+# リンカー
+LINK_FLAGS := -g -fPIC -shared
+
+EXE_LINK_FLAGS := -g
+
+# python ｲﾝﾀーﾌﾟﾘﾀー
+PYTHON := python3
+

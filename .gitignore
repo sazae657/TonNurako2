@@ -1,0 +1,10 @@
+*.swp
+*.bak
+a.out
+bin/
+.vs/
+obj[0-9]*/
+obj/
+doc/*/
+Makefile
+node_modules/*

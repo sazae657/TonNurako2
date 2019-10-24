@@ -1,0 +1,12 @@
+Site.mp3
+*.o
+*.out
+*.pyc
+CMake*
+cmake*
+*dSYM/
+Config/*
+import.app/*
+!import.app/Contents
+check.localized/rules.*
+

@@ -1,0 +1,70 @@
+.namespace TonNurako.X11
+.class StringConstant
+.type class
+.vt string
+.using System
+.using TonNurako.Native
+.include <X11/X.h>
+.include <X11/Xlib.h>
+.include <X11/extensions/Xrender.h>
+
+//Render
+FilterNearest
+FilterBilinear
+FilterConvolution
+FilterFast
+FilterGood
+FilterBest
+
+XNRequiredCharSet
+XNQueryOrientation
+XNBaseFontName
+XNOMAutomatic
+XNMissingCharSet
+XNDefaultString
+XNOrientation
+XNDirectionalDependentDrawing
+XNContextualDrawing
+XNFontInfo
+XNVaNestedList
+XNQueryInputStyle
+XNClientWindow
+XNInputStyle
+XNFocusWindow
+XNResourceName
+XNResourceClass
+XNGeometryCallback
+XNDestroyCallback
+XNFilterEvents
+XNPreeditStartCallback
+XNPreeditDoneCallback
+XNPreeditDrawCallback
+XNPreeditCaretCallback
+XNPreeditStateNotifyCallback
+XNPreeditAttributes
+XNStatusStartCallback
+XNStatusDoneCallback
+XNStatusDrawCallback
+XNStatusAttributes
+XNArea
+XNAreaNeeded
+XNSpotLocation
+XNColormap
+XNStdColormap
+XNForeground
+XNBackground
+XNBackgroundPixmap
+XNFontSet
+XNLineSpace
+XNCursor
+XNQueryIMValuesList
+XNQueryICValuesList
+XNVisiblePosition
+XNR6PreeditCallback
+XNStringConversionCallback
+XNStringConversion
+XNResetState
+XNHotKey
+XNHotKeyState
+XNPreeditState
+XNSeparatorofNestedList

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="CopyExtremeSports" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+
+    <Target Name="CopyExtremeSports">
+        <ItemGroup>
+            <ExtremeSports Include="../../TonNurako/bin/$(Configuration)/$(TargetFramework)/libTonNurako.extremesports"/>
+        </ItemGroup>
+
+        <Message Condition="'$(OS)' != 'Unix'"
+             Text="=== SKIP TonNuraConfig ($(OS)) ===" />
+        <Copy
+            Condition="'$(OS)' == 'Unix'"
+            SourceFiles="@(ExtremeSports)"
+            DestinationFolder="$(OutputPath)">
+        </Copy>
+    </Target>
+</Project>

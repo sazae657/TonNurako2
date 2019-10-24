@@ -1,0 +1,23 @@
+# Motifのﾍｯﾀﾞーとﾗｲﾌﾞﾗﾘーのﾊﾟｽ
+MOTF_LIBRARY_ARGS :=
+#
+
+## X11のﾍｯﾀﾞーとﾗｲﾌﾞﾗﾘーのﾊﾟｽ
+X11_LIBRARY_ARGS:=
+#
+
+
+# Cｺﾝﾊﾟｲﾗー
+CC := cc
+CFLAGS := -g -fPIC
+
+WARN_OPT := -W -Wall -Werror -Wno-unused-parameter -Wno-discarded-qualifiers
+
+# リンカー
+LINK_FLAGS := -g -fPIC -shared
+
+EXE_LINK_FLAGS := -g
+
+# python ｲﾝﾀーﾌﾟﾘﾀー
+PYTHON := python3
+

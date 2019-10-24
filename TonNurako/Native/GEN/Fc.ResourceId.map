@@ -1,0 +1,86 @@
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_FAMILY = TonNurako.X11.Extension.Xft.FcObjectId.FC_FAMILY,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_STYLE = TonNurako.X11.Extension.Xft.FcObjectId.FC_STYLE,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_SLANT = TonNurako.X11.Extension.Xft.FcObjectId.FC_SLANT,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_WEIGHT = TonNurako.X11.Extension.Xft.FcObjectId.FC_WEIGHT,
+printf("\n        /// <summary>\n/// Range\n        /// </summary>\n");
+FC_SIZE = TonNurako.X11.Extension.Xft.FcObjectId.FC_SIZE,
+printf("\n        /// <summary>\n/// Double\n        /// </summary>\n");
+FC_ASPECT = TonNurako.X11.Extension.Xft.FcObjectId.FC_ASPECT,
+printf("\n        /// <summary>\n/// Double\n        /// </summary>\n");
+FC_PIXEL_SIZE = TonNurako.X11.Extension.Xft.FcObjectId.FC_PIXEL_SIZE,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_SPACING = TonNurako.X11.Extension.Xft.FcObjectId.FC_SPACING,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_FOUNDRY = TonNurako.X11.Extension.Xft.FcObjectId.FC_FOUNDRY,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_ANTIALIAS = TonNurako.X11.Extension.Xft.FcObjectId.FC_ANTIALIAS,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_HINTING = TonNurako.X11.Extension.Xft.FcObjectId.FC_HINTING,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_HINT_STYLE = TonNurako.X11.Extension.Xft.FcObjectId.FC_HINT_STYLE,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_VERTICAL_LAYOUT = TonNurako.X11.Extension.Xft.FcObjectId.FC_VERTICAL_LAYOUT,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_AUTOHINT = TonNurako.X11.Extension.Xft.FcObjectId.FC_AUTOHINT,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_WIDTH = TonNurako.X11.Extension.Xft.FcObjectId.FC_WIDTH,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_FILE = TonNurako.X11.Extension.Xft.FcObjectId.FC_FILE,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_INDEX = TonNurako.X11.Extension.Xft.FcObjectId.FC_INDEX,
+printf("\n        /// <summary>\n/// FT_Face\n        /// </summary>\n");
+FC_FT_FACE = TonNurako.X11.Extension.Xft.FcObjectId.FC_FT_FACE,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_OUTLINE = TonNurako.X11.Extension.Xft.FcObjectId.FC_OUTLINE,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_SCALABLE = TonNurako.X11.Extension.Xft.FcObjectId.FC_SCALABLE,
+printf("\n        /// <summary>\n/// double\n        /// </summary>\n");
+FC_DPI = TonNurako.X11.Extension.Xft.FcObjectId.FC_DPI,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_RGBA = TonNurako.X11.Extension.Xft.FcObjectId.FC_RGBA,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_MINSPACE = TonNurako.X11.Extension.Xft.FcObjectId.FC_MINSPACE,
+printf("\n        /// <summary>\n/// CharSet\n        /// </summary>\n");
+FC_CHARSET = TonNurako.X11.Extension.Xft.FcObjectId.FC_CHARSET,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_LANG = TonNurako.X11.Extension.Xft.FcObjectId.FC_LANG,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_FONTVERSION = TonNurako.X11.Extension.Xft.FcObjectId.FC_FONTVERSION,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_FULLNAME = TonNurako.X11.Extension.Xft.FcObjectId.FC_FULLNAME,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_FAMILYLANG = TonNurako.X11.Extension.Xft.FcObjectId.FC_FAMILYLANG,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_STYLELANG = TonNurako.X11.Extension.Xft.FcObjectId.FC_STYLELANG,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_FULLNAMELANG = TonNurako.X11.Extension.Xft.FcObjectId.FC_FULLNAMELANG,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_CAPABILITY = TonNurako.X11.Extension.Xft.FcObjectId.FC_CAPABILITY,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_FONTFORMAT = TonNurako.X11.Extension.Xft.FcObjectId.FC_FONTFORMAT,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_EMBOLDEN = TonNurako.X11.Extension.Xft.FcObjectId.FC_EMBOLDEN,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_EMBEDDED_BITMAP = TonNurako.X11.Extension.Xft.FcObjectId.FC_EMBEDDED_BITMAP,
+printf("\n        /// <summary>\n/// Bool\n        /// </summary>\n");
+FC_DECORATIVE = TonNurako.X11.Extension.Xft.FcObjectId.FC_DECORATIVE,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_LCD_FILTER = TonNurako.X11.Extension.Xft.FcObjectId.FC_LCD_FILTER,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_FONT_FEATURES = TonNurako.X11.Extension.Xft.FcObjectId.FC_FONT_FEATURES,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_NAMELANG = TonNurako.X11.Extension.Xft.FcObjectId.FC_NAMELANG,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_PRGNAME = TonNurako.X11.Extension.Xft.FcObjectId.FC_PRGNAME,
+printf("\n        /// <summary>\n/// String\n        /// </summary>\n");
+FC_POSTSCRIPT_NAME = TonNurako.X11.Extension.Xft.FcObjectId.FC_POSTSCRIPT_NAME,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_CHAR_WIDTH = TonNurako.X11.Extension.Xft.FcObjectId.FC_CHAR_WIDTH,
+printf("\n        /// <summary>\n/// Int\n        /// </summary>\n");
+FC_CHAR_HEIGHT = TonNurako.X11.Extension.Xft.FcObjectId.FC_CHAR_HEIGHT,
+printf("\n        /// <summary>\n/// FcMatrix\n        /// </summary>\n");
+FC_MATRIX = TonNurako.X11.Extension.Xft.FcObjectId.FC_MATRIX,

@@ -1,0 +1,11 @@
+
+// Xt
+XtVersion = TonNurako.Xt.Constant.XtVersion,
+XtListHead = TonNurako.Xt.Constant.XtListHead,
+XtListTail = TonNurako.Xt.Constant.XtListTail,
+
+// XtInputMask
+XtInputNoneMask = TonNurako.Xt.Constant.XtInputNoneMask,
+XtInputReadMask = TonNurako.Xt.Constant.XtInputReadMask,
+XtInputWriteMask = TonNurako.Xt.Constant.XtInputWriteMask,
+XtInputExceptMask = TonNurako.Xt.Constant.XtInputExceptMask,
