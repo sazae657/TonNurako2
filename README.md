@@ -6,7 +6,7 @@
 
 
 ![VSS](https://raw.githubusercontent.com/sazae657/TonNurako2/master/ScreenShot.png)
-
+[![Build Status](https://travis-ci.org/sazae657/TonNurako2.svg?branch=master)](https://travis-ci.org/sazae657/TonNurako2)
 
 ## ﾋﾞﾙﾄﾞ
 
