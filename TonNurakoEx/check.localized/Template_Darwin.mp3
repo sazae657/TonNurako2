@@ -1,9 +1,12 @@
 # Motifのﾍｯﾀﾞーとﾗｲﾌﾞﾗﾘーのﾊﾟｽ
 MOTF_LIBRARY_ARGS := -L/opt/local/lib -L/usr/local/lib
+
 #
 
 ## X11のﾍｯﾀﾞーとﾗｲﾌﾞﾗﾘーのﾊﾟｽ
-X11_LIBRARY_ARGS:= -I/opt/local/include/X11  -I/usr/local/include/X11
+X11_LIBRARY_ARGS := -I/opt/local/lib  -I/usr/local/lib
+X11_HEADER_ARGS := -I/opt/local/include -I/usr/local/include
+
 #
 
 
