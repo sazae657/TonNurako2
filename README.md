@@ -5,8 +5,8 @@
 ﾗｲｾﾝｽはOpenMotifに従いLGPLとします
 
 
-![VSS](https://raw.githubusercontent.com/sazae657/TonNurako2/master/ScreenShot.png)
-[![Build Status](https://travis-ci.org/sazae657/TonNurako2.svg?branch=master)](https://travis-ci.org/sazae657/TonNurako2)
+![VSS](https://raw.githubusercontent.com/sazae657/TonNurako2/degelop/ScreenShot.png)
+[![Build Status](https://travis-ci.org/sazae657/TonNurako2.svg?branch=degelop)](https://travis-ci.org/sazae657/TonNurako2)
 
 ## ﾋﾞﾙﾄﾞ
 
