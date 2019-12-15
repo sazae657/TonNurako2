@@ -1,9 +1,12 @@
 # Motifのﾍｯﾀﾞーとﾗｲﾌﾞﾗﾘーのﾊﾟｽ
-MOTF_LIBRARY_ARGS :=
+MOTF_LIBRARY_ARGS := -L/opt/local/lib -L/usr/local/lib
+
 #
 
 ## X11のﾍｯﾀﾞーとﾗｲﾌﾞﾗﾘーのﾊﾟｽ
-X11_LIBRARY_ARGS :=
+X11_LIBRARY_ARGS := -I/opt/local/lib  -I/usr/local/lib
+X11_HEADER_ARGS := -I/opt/local/include -I/usr/local/include
+
 #
 
 
@@ -11,7 +14,7 @@ X11_LIBRARY_ARGS :=
 CC := cc
 CFLAGS := -g -fPIC
 
-WARN_OPT := -W -Wall -Werror -Wno-unused-parameter -Wno-discarded-qualifiers
+WARN_OPT := -W -Wall -Wno-unused-parameter 
 
 # リンカー
 LINK_FLAGS := -g -fPIC -shared

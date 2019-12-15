@@ -19,7 +19,12 @@ function error_exit {
 	exit 9
 }
 
-cp ${KWD}/check.localized/Template.mp3 ${SITE_MP3}
+OS=$(uname -s)
+if [ -f "${KWD}/check.localized/Template_${OS}.mp3" ];then
+	cp ${KWD}/check.localized/Template_${OS}.mp3 ${SITE_MP3}
+else
+	cp ${KWD}/check.localized/Template.mp3 ${SITE_MP3}
+fi
 
 SITE_MP3=${SITE_MP3} ${KWD}/check.localized/find_Xlib.sh || error_exit "Xlibが見つからないよう"
 SITE_MP3=${SITE_MP3} ${KWD}/check.localized/find_Motif.sh || error_exit "Motifが見つからないよう"
