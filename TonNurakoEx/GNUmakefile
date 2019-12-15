@@ -89,7 +89,7 @@ GEN_SRCS = $(XM_CONSTANT_CS) \
 		$(FC_RESOURCE_ID_CS)
 
 ifeq ($(BUILD),Release)
-	OPT = -O2 -DNDEBUG
+	OPT = -O -DNDEBUG
 endif
 
 ifeq ($(PLATFORM), Darwin)
