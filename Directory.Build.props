@@ -1,7 +1,7 @@
 <Project>
 
   <PropertyGroup>
-    <NetCoreAppTarget>netcoreapp3.0</NetCoreAppTarget>
+    <NetCoreAppTarget>netcoreapp3.1</NetCoreAppTarget>
     <NetStandardTarget>netstandard2.1</NetStandardTarget>
   </PropertyGroup>
 

@@ -1,0 +1,13 @@
+language: csharp
+dotnet: 3.1
+
+install:
+    - sudo apt-get -qq update
+    - sudo apt-get -qq install libmotif-dev libxmu-dev libxt-dev libfontconfig1-dev xvfb fonts-ipafont-gothic xfonts-intl-japanese
+
+script:
+    - sudo fc-cache -v
+    - cd TonNurakoTest
+    - dotnet restore
+    - dotnet build
+    - ./headless.sh

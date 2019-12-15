@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <Target Name="CopyExtremeSportsTest">
+        <ItemGroup>
+            <ExtremeSports Include="../../TonNurako/bin/$(Configuration)/$(NetStandardTarget)/libTonNurako.extremesports"/>
+        </ItemGroup>
+
+        <Message Condition="'$(OS)' != 'Unix'"
+             Text="=== SKIP TonNuraConfig ($(OS)) ===" />
+        <Copy
+            Condition="'$(OS)' == 'Unix'"
+            SourceFiles="@(ExtremeSports)"
+            DestinationFolder="$(OutputPath)">
+        </Copy>
+    </Target>
+</Project>

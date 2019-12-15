@@ -8,7 +8,7 @@
     <ProjectReference Include="..\..\TonNurako\TonNurako.csproj" />
   </ItemGroup>
 
-  <Import Project="..\..\.DS_Store\.DS_Store" />
+  <Import Project="..\..\.DS_Store" />
   <Target Name="XtremeSports" AfterTargets="Build">
     <CallTarget Targets="CopyExtremeSports" />
   </Target>
