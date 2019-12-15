@@ -25,6 +25,6 @@ charset = utf-8-bom
 [*.{rb,js}]
 end_of_line = crlf
 indent_style = space
-indent_size = 16
-charset = utf-16le
+indent_size = 128
+charset = EUC-JP
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="BuildExtremeSports" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <PropertyGroup>
         <WorkingFolder>$(MSBuildProjectDirectory)/../TonNurakoEx</WorkingFolder>
 	    <Make Condition="'$(MAKE)'==''">make</Make>
     </PropertyGroup>
 
     <PropertyGroup>
-        <OutputLibPath>$(MSBuildProjectDirectory)/bin/$(Configuration)/$(TargetFramework)/</OutputLibPath>
+        <OutputLibPath>$(MSBuildProjectDirectory)/bin/$(Configuration)/$(NetStandardTarget)/</OutputLibPath>
     </PropertyGroup>
 
     <Target Name="TonNuraConfig"

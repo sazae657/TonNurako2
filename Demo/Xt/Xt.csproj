@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>$(NetCoreAppTarget)</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TonNurako\TonNurako.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\.DS_Store\.DS_Store" />
+  <Target Name="XtremeSports" AfterTargets="Build">
+    <CallTarget Targets="CopyExtremeSports" />
+  </Target>
+
+</Project>

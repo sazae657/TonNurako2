@@ -1,0 +1,4 @@
+namespace TonNurako.Events
+{
+    // なにもないよ
+}

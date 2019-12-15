@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Creating Makefile"
+
+cat << EOD >Makefile
+T=bin/Debug/TonNurako.dll
+all: \$(T)
+
+\$(T):
+	xbuild  /t:Rebuild /p:Configuration=Debug
+
+clean:
+	-xbuild /t:Clean 
+
+distclean: clean
+	-rm Makefile
+EOD

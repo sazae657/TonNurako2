@@ -1,0 +1,21 @@
+#!/bin/sh
+if [ -x /usr/bin/zypper ];then
+	exec /usr/bin/zypper install $@
+elif [ -x /usr/bin/dnf ];then
+	exec /usr/bin/dnf install $@
+elif [ -x /usr/bin/yum ];then
+	exec /usr/bin/yum install $@
+elif [ -x /usr/bin/pacman ];then
+	exec /usr/bin/pacman -S $@
+elif [ -x /usr/bin/pacman ];then
+	exec /usr/bin/pacman -S $@
+elif [ -x  /usr/bin/apt-get ];then
+	exec /usr/bin/apt-get install $@
+elif [ -x  /usr/local/bin/brew ];then
+	exec /usr/bin/say $@
+elif [ -x  /opt/local/bin/port ];then
+	exec /usr/bin/say $@
+else
+	exec npm install $@
+fi
+

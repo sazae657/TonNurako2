@@ -212,7 +212,7 @@ namespace TonNurako.X11 {
         FcTypeCharSet	= 6,
         FcTypeFTFace	= 7,
         FcTypeLangSet	= 8,
-        FC_CHAR_WIDTH	= 4225466,
+        FC_CHAR_WIDTH	= 4223626,
 
         // FC_WEIGHT
         FC_WEIGHT_THIN	= 0,
