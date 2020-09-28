@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -13,11 +13,13 @@ namespace TonNurako.X11 {
         internal static class NativeMethods {
             // Atom: XInternAtom [{'type': 'Display*', 'name': 'display'}, {'type': 'char*', 'name': 'atom_name'}, {'type': 'Bool', 'name': 'only_if_exists'}]
             [DllImport(ExtremeSports.Lib, EntryPoint = "XInternAtom_TNK", CharSet = CharSet.Auto, BestFitMapping=false, ThrowOnUnmappableChar=true)]
-            internal static extern IntPtr XInternAtom(IntPtr display, [MarshalAs(UnmanagedType.LPStr)] string atom_name, [MarshalAs(UnmanagedType.U1)] bool only_if_exists);
+            internal static extern IntPtr XInternAtom(IntPtr display,
+                [MarshalAs(UnmanagedType.LPStr)] string atom_name, [MarshalAs(UnmanagedType.U1)] bool only_if_exists);
 
             // Status: XInternAtoms [{'type': 'Display*', 'name': 'display'}, {'type': 'char*', 'name': '*names'}, {'type': 'int', 'name': 'count'}, {'type': 'Bool', 'name': 'only_if_exists'}, {'type': 'Atom*', 'name': 'atoms_return'}]
             [DllImport(ExtremeSports.Lib, EntryPoint = "XInternAtoms_TNK", CharSet = CharSet.Auto, BestFitMapping = false, ThrowOnUnmappableChar = true)]
-            internal static extern XStatus XInternAtoms(IntPtr display, [MarshalAs(UnmanagedType.LPStr)] string[] names, int count, [MarshalAs(UnmanagedType.U1)] bool only_if_exists, out IntPtr atoms_return);
+            internal static extern XStatus XInternAtoms(
+                IntPtr display, [MarshalAs(UnmanagedType.LPArray, ArraySubType = UnmanagedType.LPStr)] string[] names, int count, [MarshalAs(UnmanagedType.U1)] bool only_if_exists, out IntPtr atoms_return);
 
             // char*: XGetAtomName [{'type': 'Display*', 'name': 'display'}, {'type': 'Atom', 'name': 'atom'}]
             [DllImport(ExtremeSports.Lib, EntryPoint = "XGetAtomName_TNK", CharSet = CharSet.Auto)]
