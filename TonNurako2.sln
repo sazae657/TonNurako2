@@ -1,25 +1,32 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonNurako", "TonNurako\TonNurako.csproj", "{91AF5E71-F75E-44FA-8B84-E921A7CEB08C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TonNurako", "TonNurako\TonNurako.csproj", "{91AF5E71-F75E-44FA-8B84-E921A7CEB08C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{EDA45E7F-EC47-496F-A2AD-7EE736891D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple", "Demo\Simple\Simple.csproj", "{EC0F13AE-CA71-4B91-A13D-062BDE781A76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple", "Demo\Simple\Simple.csproj", "{EC0F13AE-CA71-4B91-A13D-062BDE781A76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Widgets", "Demo\Widgets\Widgets.csproj", "{543BE889-1DF9-43B6-B02D-6BB8E02EB5B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Widgets", "Demo\Widgets\Widgets.csproj", "{543BE889-1DF9-43B6-B02D-6BB8E02EB5B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xft", "Demo\Xft\Xft.csproj", "{5A849B2B-97DC-4E4A-8439-2236AD36293D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xft", "Demo\Xft\Xft.csproj", "{5A849B2B-97DC-4E4A-8439-2236AD36293D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xlib", "Demo\Xlib\Xlib.csproj", "{A9B55F2B-644B-4AC4-A611-65A0B2C20751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xlib", "Demo\Xlib\Xlib.csproj", "{A9B55F2B-644B-4AC4-A611-65A0B2C20751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRender", "Demo\XRender\XRender.csproj", "{FF42BEBD-61A7-41B0-B62E-E287BB552AE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XRender", "Demo\XRender\XRender.csproj", "{FF42BEBD-61A7-41B0-B62E-E287BB552AE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xt", "Demo\Xt\Xt.csproj", "{67A7834C-8550-4EB9-A152-B31BEA42971D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xt", "Demo\Xt\Xt.csproj", "{67A7834C-8550-4EB9-A152-B31BEA42971D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TnkEyes", "Demo\TnkEyes\TnkEyes.csproj", "{4BF971E2-9496-4E3C-9C08-AE60F5F552E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TnkEyes", "Demo\TnkEyes\TnkEyes.csproj", "{4BF971E2-9496-4E3C-9C08-AE60F5F552E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ﾆﾗ", "ﾆﾗ", "{CADF5AA8-B368-4613-BBBF-4AF91E93C226}"
+	ProjectSection(SolutionItems) = preProject
+		.DS_Store = .DS_Store
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,9 +36,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{91AF5E71-F75E-44FA-8B84-E921A7CEB08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -131,6 +135,9 @@ Global
 		{4BF971E2-9496-4E3C-9C08-AE60F5F552E9}.Release|x86.ActiveCfg = Release|Any CPU
 		{4BF971E2-9496-4E3C-9C08-AE60F5F552E9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC0F13AE-CA71-4B91-A13D-062BDE781A76} = {EDA45E7F-EC47-496F-A2AD-7EE736891D49}
 		{543BE889-1DF9-43B6-B02D-6BB8E02EB5B3} = {EDA45E7F-EC47-496F-A2AD-7EE736891D49}
@@ -139,5 +146,8 @@ Global
 		{FF42BEBD-61A7-41B0-B62E-E287BB552AE9} = {EDA45E7F-EC47-496F-A2AD-7EE736891D49}
 		{67A7834C-8550-4EB9-A152-B31BEA42971D} = {EDA45E7F-EC47-496F-A2AD-7EE736891D49}
 		{4BF971E2-9496-4E3C-9C08-AE60F5F552E9} = {EDA45E7F-EC47-496F-A2AD-7EE736891D49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC5EA3C5-90A2-4841-AEF7-7C8E2CD8AE74}
 	EndGlobalSection
 EndGlobal
